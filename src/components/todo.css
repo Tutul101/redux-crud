@@ -1,0 +1,56 @@
+.main-div {
+  display: flex;
+  width: 50%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  margin-top: 5%;
+  text-align: center;
+}
+.child-div {
+  width: 90%;
+  height: auto;
+  color: #9defd7;
+}
+.add-items {
+  display: flex;
+  justify-content: center;
+  gap: 3%;
+}
+.add-items input {
+  width: 60%;
+}
+.btn-primary{
+    bord;
+}
+.show-items {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+.each-item {
+  display: flex;
+  flex-direction: row;
+}
+.each-item span {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  justify-content: space-between;
+  background: grey;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-radius: 15px;
+}
+.btn-danger {
+  border-radius: 34%;
+  /* cursor: pointer; */
+  border: 1px solid black;
+}
